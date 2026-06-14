@@ -2,11 +2,11 @@ name: Olá Mundo
 on: [push]
 jobs:
   dizer-ola:
-  runs-on: ubuntu-latest
-  steps:
-  - name: Imprime uma mensagem no console
-  run: echo "Olá mundo! Está é minha primeira github Action"
-  - name: Imprime outra mensagem
-  run: echo "Até a próxima"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Imprime uma mensagem no console
+        run: echo "Olá mundo! Está é minha primeira github Action"
+      - name: Imprime outra mensagem
+        run: echo "Até a próxima"
   
   
